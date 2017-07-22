@@ -1,0 +1,25 @@
+<%= form_for :address, url: address_index_path do |f| %>
+
+<%= f.label :street_address %>
+<%= f.text_field :street_address %>
+
+<%= f.label :street_address2 %>
+<%= f.text_field :street_address2 %>
+
+<%= f.label :city %>
+<%= f.text_field :city %>
+
+<%= f.label :state %>
+<%= f.text_field :state %>
+
+<%= f.submit %>
+
+<% end %>
+
+
+
+
+<!-- t.text "street_address"
+t.text "street_address2"
+t.string "city"
+t.string "state" -->

@@ -1,0 +1,12 @@
+<h1>This is the show page for addresses</h1>
+
+<%= @address.street_address %>
+<%= @address.street_address2 %>
+<%= @address.city %>
+<%= @address.state %>
+<%= @address.zipcode %>
+
+<% @address.vistors.each do |vistor| %>
+<%= vistor.name %>
+
+<% end %>
